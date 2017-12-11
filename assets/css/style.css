@@ -1,0 +1,100 @@
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Courier New';
+}
+
+
+body{
+	
+	background-image: url("../images/background.jpg");
+}
+
+#gameWrapper{
+	margin-top: 20px;
+	display: block;
+	border: 3px solid #00ff00;
+	border-style: outset;
+	margin: 0px auto;
+	width: 60%;
+	background-color: #D8D8D8;
+	height: 675px;
+
+}
+
+#triviaHeader{
+	font-family: 'Courier New', cursive;
+	font-size: 200%;
+	color: #32cd32;
+	text-align: center;
+}
+
+#startButton{
+	display: block;
+	margin: 150px auto;
+    background-color: #32cd32;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Courier New';
+
+    width: 75%;
+    height: 80px;
+    font-size: 30px;
+}
+
+#restartButton{
+	display: block;
+	margin: 40px auto;
+	background-color: #32cd32; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 75%;
+    height: 80px;
+    font-size: 30px;
+
+   }
+
+.answer{
+	display: block;
+	margin: 10px auto;
+
+    background-color: #32cd32; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 90%;
+    height: 80px;
+    font-size: 16px;
+    font-family: 'Courier New';
+}
+
+.answerDisplay{
+	display: block;
+	margin: 150px auto;
+	font-size: 200%;
+	text-align: center;
+	font-family: 'Courier New';
+}
+
+.question{
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	font-family: 'Courier New';
+
+}
+
+.timer{
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	font-family: 'Courier New';
+
+}
